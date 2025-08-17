@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+#carta {
+  margin-top: 20px;
+  width: 120px;
+  height: 180px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+#mensaje {
+  margin-top: 20px;
+  font-weight: bold;
+  color: darkred;
+  white-space: pre-line;
+}
